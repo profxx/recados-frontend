@@ -1,0 +1,50 @@
+.recado-top, .recado-central{
+    width: 100vw;
+    padding: 2rem 3rem 1rem 3rem;
+          /* cima dir  baixo esq */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.recado-top h3{
+    background-color: #8d8d8d;
+    width: 360px;
+    padding: .3rem 1rem;
+    border-radius: .5rem;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e2e2e2;
+}
+
+.lista-recados-novos{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.recados{
+    width: 360px;
+}
+.recado-novo{
+    background-color: #d9d9d9;
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 140px;
+}
+.titulo-recado{
+    font-size: 18px;
+}
+.descricao-recado{
+    font-size: 12px;
+    height: 42px;
+}
+.recado-central{
+    padding-top: 0;
+}
+.recado-novo .status{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
