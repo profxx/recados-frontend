@@ -1,0 +1,33 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32;
+    color: #fff;
+}
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 140px;
+    background-color: #1B0095;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.botoes{
+    border-radius: 2rem;
+}
