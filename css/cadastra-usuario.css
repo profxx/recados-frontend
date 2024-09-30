@@ -36,4 +36,12 @@
 }
 .grupodebotoes{
     display: flex;
+    gap: 16px;
+}
+.btncadastrar{
+    width: 120px;
+    border-radius: 20px;
+}
+.descricao{
+    height: 100px;
 }
