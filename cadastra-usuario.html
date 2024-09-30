@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro de Usuário</title>
+
+    <!-- CSS Local -->
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/cadastra-usuario.css">
 </head>
+
 <body>
 
-    <h1>Cadastro de usuário</h1>
-    
+    <div class="container">
+
+        <header>
+            <h1>Cadastro de usuário</h1>
+        </header>
+
+
+        <section class="area-cadastro">
+            <h3>Criar novo usuário</h3>
+            
+            <div class="info">
+
+                <form action="" class="form-cadastro">
+                    <input 
+                    class="inseredados"
+                    type="text" 
+                    name="username" 
+                    id="username" 
+                    placeholder="username (nome de usuário)">
+
+                    <input 
+                    class="inseredados"
+                    type="email" 
+                    name="email" 
+                    id="email"
+                    placeholder="e-mail">
+
+                    <input 
+                    class="inseredados"
+                    type="tel" 
+                    name="phone" 
+                    id="phone"
+                    placeholder="telefone">
+                    <div class="grupodebotoes">
+
+                        <a href="./index.html">
+                            <input 
+                            class="btn btn-primary"
+                            type="button" value="Cancelar">
+                        </a>
+                        <a href="./tela-recados.html">
+                            <input 
+                            class="btn btn-primary"
+                            type="button" value="Criar">
+                        </a>
+
+                    </div>
+                
+
+                </form>
+                <img src="./assets/img/user.png" alt="Usuário">
+
+            </div>
+        </section>
+
+    </div>
+
 </body>
+
 </html>
