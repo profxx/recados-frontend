@@ -1,10 +1,6 @@
-const titulonovo = 
-    document.getElementById("titulorecado");
-const descricaonova = 
-    document.getElementById("descricao");
-let listaRecadosNovos = 
-    document.getElementsByClassName(
-        "lista-recados-novos");
+const titulonovo = document.getElementById("titulorecado");
+const descricaonova = document.getElementById("descricao");
+let listaRecadosNovos = document.getElementsByClassName("lista-recados-novos");
 
 let listaRecados = [];
 
@@ -36,16 +32,13 @@ function convertRecadoToLi(recado){
 }
 
 function criarNovoTitulo(){
-       listaRecados.push({
-            titulo: titulonovo.value,
-            descricao: descricaonova.value,
-            situacao: "Novo"
-       });
-       listaRecadosNovos.innerHTML += 
-        convertRecadoToLi({
-            titulo: titulonovo.value,
-            descricao: descricaonova.value
-        });
+    const recado = {
+        titulo: titulonovo.value,
+        descricao: descricaonova.value,
+        situacao: "Novo"
+   };   
+    listaRecados.push(recado);
+       listaRecadosNovos.innerHTML += convertRecadoToLi(recado);
        titulonovo.value = "";
        descricao.value = "";
 }
